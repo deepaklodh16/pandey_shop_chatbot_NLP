@@ -1,0 +1,34 @@
+
+
+chatbot - julie(dialogflow)
+
+#entities#
+
+paav bhaji paav bhajibhaji paavmumbai paav bhajipaav paav bhajipav bhaji
+chole bhature chole bhaturebhaturebhature chole
+pizza pizzanew pizzaold pizzacheese pizza
+mango lassi mango lassilassilassi mango
+masala dosa masala dosadosacheese masala dosadosa masala
+vada paav vada paavpaav vadavadapav
+vegetable biryani vegetable biryanibiryaniveg biryani
+samosa
+ 
+samosa,paav samosa,samosa paav
+samosa×paav samosa×samosa paav
+
+
+#intents#
+
+ Default Fallback IntentAdd follow-up intent  
+ Default Welcome Intent
+ new.order
+ order.add-context:ongoing-order
+ order.complete-context:ongoing-order
+ order.remove-context:ongoing-order
+ track.order
+ track.order-context:ongoing-order
+
+#dialogflow_link#
+<iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/4b8cb092-7e67-4aef-8292-57f31c3540d3"></iframe>
+
+
